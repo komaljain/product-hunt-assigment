@@ -1,0 +1,23 @@
+{
+  "name": "com.producthunt.assignment",
+  "version": "1.0.0",
+  "description": "Haptik producthunt assignment for ReactJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/komaljain/product-hunt-assigment.git"
+  },
+  "author": "Komal Jain<komal.g.jain@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/komaljain/product-hunt-assigment/issues"
+  },
+  "homepage": "https://github.com/komaljain/product-hunt-assigment#readme",
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
