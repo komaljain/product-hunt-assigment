@@ -4,6 +4,8 @@
   "description": "Haptik producthunt assignment for ReactJS",
   "main": "index.js",
   "scripts": {
+    "create": "webpack",
+    "start": "webpack-dev-server --open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,8 +18,27 @@
     "url": "https://github.com/komaljain/product-hunt-assigment/issues"
   },
   "homepage": "https://github.com/komaljain/product-hunt-assigment#readme",
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  },
   "dependencies": {
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.4.2",
+    "html-webpack-plugin": "^3.2.0",
+    "http-server": "^0.12.1",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
   }
 }
