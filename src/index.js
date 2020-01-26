@@ -2,13 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import registerServiceWorker from '../registerServiceWorker';
+import HomePage from "./HomePage";
 
-class App extends React.Component{
-    render(){
-        return(
-            <div>Init app</div>
-        )
-    }
-}
-ReactDOM.render(<App /> , document.getElementById('root'));
+ReactDOM.render(<HomePage /> , document.getElementById('root'));
 registerServiceWorker();
