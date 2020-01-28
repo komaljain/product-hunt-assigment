@@ -9,6 +9,7 @@ class App extends React.Component {
         return (
             <BrowserRouter>
                 <Switch>
+                    <Route path='/index.html' component={HomePage}></Route>
                     <Route path='/homepage' component={HomePage}></Route>
                     <Route path='/myupvotes' component={MyUpVotes}></Route>
                 </Switch>
