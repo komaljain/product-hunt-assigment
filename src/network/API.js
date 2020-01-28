@@ -3,7 +3,6 @@ import APIResponse from '../network/APIResponse';
 import { ViewUtils } from '../utils/ViewUtils';
 import MessageResponse from '../uiutils/MessageResponse';
 
-//2352271
 class API {
   constructor() {
     let service = axios.create({
@@ -57,10 +56,10 @@ class API {
     });
   }
 
-  post(path, obj, callbackSuccess, callbackError) {
-    return this.service.post(path, JSON.stringify(obj))
+  post(path, callbackSuccess, callbackError) {
+    return this.service.post(path)
     .then((response) => {
-      if (response.status === 200) {
+      if (response.status === 201) {
         callbackSuccess(response);
       } else {
         callbackError(response);
