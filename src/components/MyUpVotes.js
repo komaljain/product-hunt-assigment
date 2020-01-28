@@ -1,6 +1,6 @@
 import React from "react";
 import { withRouter } from "react-router-dom";
-import { Container, AppBar, Toolbar, Typography, IconButton, Box, Grid, Card, Chip, CircularProgress } from "@material-ui/core";
+import { Container, CircularProgress } from "@material-ui/core";
 import API from "../network/API";
 import ProductHuntList from "./ProductHuntList";
 import ProductHuntToolbar from "./ProductHuntToolbar";

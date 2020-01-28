@@ -20,6 +20,10 @@ module.exports = {
     plugins : [
         new HtmlWebpackPlugin ({
             template : './public/index.html'
-        })
+        }),
+        new webpack.optimize.CommonsChunkPlugin('common.js'),
+        new webpack.optimize.DedupePlugin(),
+        new webpack.optimize.UglifyJsPlugin(),
+        new webpack.optimize.AggressiveMergingPlugin()
     ]
 }

@@ -1,8 +1,7 @@
-import React, {useState} from 'react';
-import ReactDOM from 'react-dom';
-import { Router, Route, Switch } from 'react-router';
+import React from 'react';
+import { Route, Switch } from 'react-router';
 import { HomePage, MyUpVotes } from "./components";
-import { Redirect, Link, BrowserRouter, withRouter} from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 
 class App extends React.Component {
     render() {

@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/komaljain/product-hunt-assigment/static/css/main.d973568c.chunk.css",
+    "main.js": "/komaljain/product-hunt-assigment/static/js/main.bc0987a1.chunk.js",
+    "main.js.map": "/komaljain/product-hunt-assigment/static/js/main.bc0987a1.chunk.js.map",
+    "runtime-main.js": "/komaljain/product-hunt-assigment/static/js/runtime-main.8c4ed3f6.js",
+    "runtime-main.js.map": "/komaljain/product-hunt-assigment/static/js/runtime-main.8c4ed3f6.js.map",
+    "static/css/2.c4d1b98b.chunk.css": "/komaljain/product-hunt-assigment/static/css/2.c4d1b98b.chunk.css",
+    "static/js/2.2f2ab1fb.chunk.js": "/komaljain/product-hunt-assigment/static/js/2.2f2ab1fb.chunk.js",
+    "static/js/2.2f2ab1fb.chunk.js.map": "/komaljain/product-hunt-assigment/static/js/2.2f2ab1fb.chunk.js.map",
+    "index.html": "/komaljain/product-hunt-assigment/index.html",
+    "precache-manifest.dc25e22c0203b96b588c235ea2c5274e.js": "/komaljain/product-hunt-assigment/precache-manifest.dc25e22c0203b96b588c235ea2c5274e.js",
+    "service-worker.js": "/komaljain/product-hunt-assigment/service-worker.js",
+    "static/css/2.c4d1b98b.chunk.css.map": "/komaljain/product-hunt-assigment/static/css/2.c4d1b98b.chunk.css.map",
+    "static/css/main.d973568c.chunk.css.map": "/komaljain/product-hunt-assigment/static/css/main.d973568c.chunk.css.map",
+    "static/js/2.2f2ab1fb.chunk.js.LICENSE": "/komaljain/product-hunt-assigment/static/js/2.2f2ab1fb.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8c4ed3f6.js",
+    "static/css/2.c4d1b98b.chunk.css",
+    "static/js/2.2f2ab1fb.chunk.js",
+    "static/css/main.d973568c.chunk.css",
+    "static/js/main.bc0987a1.chunk.js"
+  ]
+}
