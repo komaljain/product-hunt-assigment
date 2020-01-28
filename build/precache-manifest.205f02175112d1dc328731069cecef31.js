@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1c53019b27b704210503e398f0bc11e8",
+    "revision": "b96e97c981adffb2cc5fc6ecbd297e99",
     "url": "/komaljain/product-hunt-assigment/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/komaljain/product-hunt-assigment/static/css/2.c4d1b98b.chunk.css"
   },
   {
-    "revision": "56051b657ec1b681a82b",
+    "revision": "42a3ec4b7b29d02da765",
     "url": "/komaljain/product-hunt-assigment/static/css/main.d973568c.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/komaljain/product-hunt-assigment/static/js/2.2f2ab1fb.chunk.js.LICENSE"
   },
   {
-    "revision": "56051b657ec1b681a82b",
-    "url": "/komaljain/product-hunt-assigment/static/js/main.bc0987a1.chunk.js"
+    "revision": "42a3ec4b7b29d02da765",
+    "url": "/komaljain/product-hunt-assigment/static/js/main.de1487c7.chunk.js"
   },
   {
     "revision": "5c6b35d1ddefbbb359e0",
