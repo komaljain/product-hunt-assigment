@@ -5,3 +5,7 @@
 a, a:hover {
     color: #FFF;
 }
+.progress {
+    margin-left: 50%;
+    margin-top: 1rem;
+}

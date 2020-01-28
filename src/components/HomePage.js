@@ -53,7 +53,7 @@ class HomePage extends React.Component {
           <ProductHuntToolbar isHomePage={true} pageName={"ProductHunt"}></ProductHuntToolbar>
           {this.state.msgHandler}
           <div className="right-align"><DatePicker onChange={this.onDateChange} value={this.state.selectedDate} /></div>
-          {this.state.isLoading && <CircularProgress />}
+          {this.state.isLoading && <CircularProgress className="progress" />}
           <ProductHuntList displayList={this.state.postsList} />
         </Container>
       </React.Fragment>

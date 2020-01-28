@@ -24,7 +24,6 @@ class MyUpVotes extends React.Component {
       let currentComponent = this;
       currentComponent.setState({isLoading: true, postsList: [], msgHandler:null});
       API.get('users/' + userid + '/votes', (response) => {
-          console.log("votes:" + JSON.stringify(response.data));
         currentComponent.setState({
           votesList: response.data.votes,
           isLoading: false
@@ -44,7 +43,7 @@ class MyUpVotes extends React.Component {
           <Container fixed>
             <ProductHuntToolbar isHomePage={false} pageName={"My UpVotes"}></ProductHuntToolbar>
             {this.state.msgHandler}
-            {this.state.isLoading && <CircularProgress />}
+            {this.state.isLoading && <CircularProgress className="progress" />}
             <ProductHuntList displayList={this.state.votesList} isVotesList={true}></ProductHuntList>
           </Container>
         </React.Fragment>

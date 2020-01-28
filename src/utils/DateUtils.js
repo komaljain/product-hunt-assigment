@@ -2,7 +2,8 @@ import moment from 'moment';
 
 export const DateUtils = {
     convertUTCStringToFormattedDate,
-    convertDateToFormattedDate
+    convertDateToFormattedDate,
+    diffFromNow
 };
 
 function convertUTCStringToFormattedDate(strDate, format) {
@@ -11,4 +12,8 @@ function convertUTCStringToFormattedDate(strDate, format) {
 
 function convertDateToFormattedDate(date, format) {
     return moment(date).format(format);
+}
+
+function diffFromNow(date) {
+    return moment(date).fromNow();
 }
