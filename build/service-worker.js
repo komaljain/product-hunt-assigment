@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/komaljain/product-hunt-assigment/precache-manifest.e87674169c8e03f04a9836c5115d34a2.js"
+  "/komaljain/product-hunt-assigment/precache-manifest.4655fa12a1b6b6ae8e0bc58fc0fc61f7.js"
 );
 
 self.addEventListener('message', (event) => {

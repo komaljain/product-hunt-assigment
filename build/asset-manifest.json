@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/komaljain/product-hunt-assigment/static/css/main.d72c3d38.chunk.css",
-    "main.js": "/komaljain/product-hunt-assigment/static/js/main.49d06567.chunk.js",
-    "main.js.map": "/komaljain/product-hunt-assigment/static/js/main.49d06567.chunk.js.map",
+    "main.js": "/komaljain/product-hunt-assigment/static/js/main.a20b4032.chunk.js",
+    "main.js.map": "/komaljain/product-hunt-assigment/static/js/main.a20b4032.chunk.js.map",
     "runtime-main.js": "/komaljain/product-hunt-assigment/static/js/runtime-main.8c4ed3f6.js",
     "runtime-main.js.map": "/komaljain/product-hunt-assigment/static/js/runtime-main.8c4ed3f6.js.map",
     "static/css/2.c4d1b98b.chunk.css": "/komaljain/product-hunt-assigment/static/css/2.c4d1b98b.chunk.css",
     "static/js/2.8e388bdd.chunk.js": "/komaljain/product-hunt-assigment/static/js/2.8e388bdd.chunk.js",
     "static/js/2.8e388bdd.chunk.js.map": "/komaljain/product-hunt-assigment/static/js/2.8e388bdd.chunk.js.map",
     "index.html": "/komaljain/product-hunt-assigment/index.html",
-    "precache-manifest.e87674169c8e03f04a9836c5115d34a2.js": "/komaljain/product-hunt-assigment/precache-manifest.e87674169c8e03f04a9836c5115d34a2.js",
+    "precache-manifest.4655fa12a1b6b6ae8e0bc58fc0fc61f7.js": "/komaljain/product-hunt-assigment/precache-manifest.4655fa12a1b6b6ae8e0bc58fc0fc61f7.js",
     "service-worker.js": "/komaljain/product-hunt-assigment/service-worker.js",
     "static/css/2.c4d1b98b.chunk.css.map": "/komaljain/product-hunt-assigment/static/css/2.c4d1b98b.chunk.css.map",
     "static/css/main.d72c3d38.chunk.css.map": "/komaljain/product-hunt-assigment/static/css/main.d72c3d38.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.c4d1b98b.chunk.css",
     "static/js/2.8e388bdd.chunk.js",
     "static/css/main.d72c3d38.chunk.css",
-    "static/js/main.49d06567.chunk.js"
+    "static/js/main.a20b4032.chunk.js"
   ]
 }
