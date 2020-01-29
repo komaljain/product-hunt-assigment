@@ -49,7 +49,7 @@ class HomePage extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <Container fixed>
+        <Container maxWidth="md">
           <ProductHuntToolbar isHomePage={true} pageName={"ProductHunt"}></ProductHuntToolbar>
           {this.state.msgHandler}
           <div className="right-align"><DatePicker onChange={this.onDateChange} value={this.state.selectedDate} /></div>

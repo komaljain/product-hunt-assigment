@@ -7,7 +7,7 @@ function ProductHuntList({ displayList, isVotesList }) {
     const useStyles = makeStyles(theme => ({
       root: {
         flexGrow: 1,
-        marginTop: theme.spacing(1),
+        marginTop: theme.spacing(4),
       }
     }));
   
@@ -15,10 +15,10 @@ function ProductHuntList({ displayList, isVotesList }) {
   
     return (
       <div className={classes.root}>
-        <Grid container spacing={10}>
+        <Grid container spacing={5}>
           {
             displayList.map(posts => (
-              <Grid item xs={12} sm={6} md={6} lg={6} xl={6}  key={posts.id}>
+              <Grid item xs={12} sm={12} md={12} lg={6} xl={6} key={posts.id}>
                 <PostCard posts={isVotesList?posts.post:posts} isVotesList={isVotesList} />
               </Grid>
             ))

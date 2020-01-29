@@ -35,7 +35,7 @@ const Transition = React.forwardRef(function Transition(props, ref) {
 function PostCard({ posts, isVotesList }) {
     const useStyles = makeStyles(theme => ({
         card: {
-            maxWidth: 345,
+            width: '100%',
         },
         cardTagline: {
             height: 40
