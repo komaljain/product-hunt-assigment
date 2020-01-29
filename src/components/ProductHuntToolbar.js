@@ -25,7 +25,7 @@ function ProductHuntToolbar({isHomePage, pageName}) {
                 <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
                     {isHomePage?<MenuIcon />:<Link to="/homepage"><ArrowBackIcon/></Link>}
                 </IconButton>
-                <Typography variant="h6" color="inherit">{isHomePage?"ProductHunt":pageName}</Typography>
+                <Typography variant="h6" color="inherit">{isHomePage?"ProductHunt App":pageName}</Typography>
                 {isHomePage && <Link className={classes.toolbarButtons} to="myupvotes"><FavoriteIcon aria-controls="menu-appbar"></FavoriteIcon></Link>}
             </Toolbar>
         </AppBar>);
