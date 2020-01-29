@@ -40,7 +40,7 @@ class MyUpVotes extends React.Component {
     render() {
       return (
         <React.Fragment>
-          <Container fixed>
+          <Container maxWidth="md">
             <ProductHuntToolbar isHomePage={false} pageName={"My UpVotes"}></ProductHuntToolbar>
             {this.state.msgHandler}
             {this.state.isLoading && <CircularProgress className="progress" />}
