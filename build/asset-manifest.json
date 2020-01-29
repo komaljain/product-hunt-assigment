@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/komaljain/product-hunt-assigment/static/css/main.32faece8.chunk.css",
-    "main.js": "/komaljain/product-hunt-assigment/static/js/main.27791910.chunk.js",
-    "main.js.map": "/komaljain/product-hunt-assigment/static/js/main.27791910.chunk.js.map",
+    "main.js": "/komaljain/product-hunt-assigment/static/js/main.75d1c3c5.chunk.js",
+    "main.js.map": "/komaljain/product-hunt-assigment/static/js/main.75d1c3c5.chunk.js.map",
     "runtime-main.js": "/komaljain/product-hunt-assigment/static/js/runtime-main.8c4ed3f6.js",
     "runtime-main.js.map": "/komaljain/product-hunt-assigment/static/js/runtime-main.8c4ed3f6.js.map",
     "static/css/2.c4d1b98b.chunk.css": "/komaljain/product-hunt-assigment/static/css/2.c4d1b98b.chunk.css",
-    "static/js/2.b3acb5d3.chunk.js": "/komaljain/product-hunt-assigment/static/js/2.b3acb5d3.chunk.js",
-    "static/js/2.b3acb5d3.chunk.js.map": "/komaljain/product-hunt-assigment/static/js/2.b3acb5d3.chunk.js.map",
+    "static/js/2.8e388bdd.chunk.js": "/komaljain/product-hunt-assigment/static/js/2.8e388bdd.chunk.js",
+    "static/js/2.8e388bdd.chunk.js.map": "/komaljain/product-hunt-assigment/static/js/2.8e388bdd.chunk.js.map",
     "index.html": "/komaljain/product-hunt-assigment/index.html",
-    "precache-manifest.377e303336289628c8f17d719c503244.js": "/komaljain/product-hunt-assigment/precache-manifest.377e303336289628c8f17d719c503244.js",
+    "precache-manifest.6fba954f6ccc58ef0a5e23ca0d82318a.js": "/komaljain/product-hunt-assigment/precache-manifest.6fba954f6ccc58ef0a5e23ca0d82318a.js",
     "service-worker.js": "/komaljain/product-hunt-assigment/service-worker.js",
     "static/css/2.c4d1b98b.chunk.css.map": "/komaljain/product-hunt-assigment/static/css/2.c4d1b98b.chunk.css.map",
     "static/css/main.32faece8.chunk.css.map": "/komaljain/product-hunt-assigment/static/css/main.32faece8.chunk.css.map",
-    "static/js/2.b3acb5d3.chunk.js.LICENSE": "/komaljain/product-hunt-assigment/static/js/2.b3acb5d3.chunk.js.LICENSE"
+    "static/js/2.8e388bdd.chunk.js.LICENSE": "/komaljain/product-hunt-assigment/static/js/2.8e388bdd.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.8c4ed3f6.js",
     "static/css/2.c4d1b98b.chunk.css",
-    "static/js/2.b3acb5d3.chunk.js",
+    "static/js/2.8e388bdd.chunk.js",
     "static/css/main.32faece8.chunk.css",
-    "static/js/main.27791910.chunk.js"
+    "static/js/main.75d1c3c5.chunk.js"
   ]
 }
