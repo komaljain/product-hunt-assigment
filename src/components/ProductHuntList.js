@@ -8,9 +8,6 @@ function ProductHuntList({ displayList, isVotesList }) {
       root: {
         flexGrow: 1,
         marginTop: theme.spacing(1),
-        [theme.breakpoints.up('md')]: {
-          backgroundColor: 'red',
-        },
       }
     }));
   
