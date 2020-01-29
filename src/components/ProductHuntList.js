@@ -7,7 +7,10 @@ function ProductHuntList({ displayList, isVotesList }) {
     const useStyles = makeStyles(theme => ({
       root: {
         flexGrow: 1,
-        marginTop: theme.spacing(1)
+        marginTop: theme.spacing(1),
+        [theme.breakpoints.up('md')]: {
+          backgroundColor: 'red',
+        },
       }
     }));
   
@@ -18,7 +21,7 @@ function ProductHuntList({ displayList, isVotesList }) {
         <Grid container spacing={10}>
           {
             displayList.map(posts => (
-              <Grid item xs={4} key={posts.id}>
+              <Grid item xs={12} sm={6} md={6} lg={6} xl={6}  key={posts.id}>
                 <PostCard posts={isVotesList?posts.post:posts} isVotesList={isVotesList} />
               </Grid>
             ))

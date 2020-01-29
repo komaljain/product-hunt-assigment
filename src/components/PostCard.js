@@ -1,6 +1,6 @@
 import React from "react";
 import { makeStyles } from '@material-ui/core/styles';
-import { Typography, IconButton, Box, Card, Chip, CircularProgress } from "@material-ui/core";
+import { Typography, IconButton, Card, Chip, CircularProgress } from "@material-ui/core";
 import { red } from '@material-ui/core/colors';
 import CardHeader from '@material-ui/core/CardHeader';
 import CardMedia from '@material-ui/core/CardMedia';
